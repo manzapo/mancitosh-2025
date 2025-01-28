@@ -9,6 +9,7 @@
 		<link rel="icon" href="{{ url('favicon.ico') }}">
 
 		<link rel="stylesheet" href="{{ asset('bootstrap/bootstrap.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('style.css') }}">
 		@section('style')
 			{{-- Add custom CSS style --}}
 		@show
