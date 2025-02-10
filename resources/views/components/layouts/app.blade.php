@@ -16,6 +16,10 @@
 
 	</head>
 	<body>
+		@section('svg')
+			{{-- Include icon library anyway you like --}}
+		@show
+
 		{{ $slot }}
 
 		<script src="{{ asset('bootstrap/bootstrap.bundle.min.js') }}"></script>
