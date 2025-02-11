@@ -2,13 +2,16 @@
 
 namespace App\Livewire;
 
+use Livewire\Attributes\Layout;
 use Livewire\Attributes\Title;
 use Livewire\Component;
 
-#[Title('Olimpiade PAI')]
 
 class Pai extends Component
 {
+    #[Layout('components.layouts.lomba')]
+    #[Title('Olimpiade PAI')]
+    
     public function render()
     {
         sleep(1);
