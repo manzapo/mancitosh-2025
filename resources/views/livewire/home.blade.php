@@ -75,7 +75,7 @@
 		<div class="row justify-content-center" style="margin-bottom: 16rem;">
 			<div class="col-xl-8 text-center fs-5 fw-bold">
 				<div class="mb-3" style="color: #55300F;">Untuk SMP / MTs Se-Karesidenan Madiun dan Undangan</div>
-				<a href="{{ asset('juklak-juknis-mancitosh-v9-2025-1.pdf') }}" class="btn btn-dark btn-lg me-xl-2 rounded-4"><svg class="bi me-2" width="1em" height="1em"><use href="#file-earmark-text"></use></svg> Guide Book</a>
+				<a href="{{ asset('juklak-juknis-mancitosh-v9-2025-2.pdf') }}" class="btn btn-dark btn-lg me-xl-2 rounded-4"><svg class="bi me-2" width="1em" height="1em"><use href="#file-earmark-text"></use></svg> Guide Book</a>
 				<a href="https://docs.google.com/forms/d/e/1FAIpQLSfGxq2cOy7M-HvhpdV9jq-P2uUABBogrDI_QxekCXzPSF0z-g/viewform" class="btn btn-outline-dark btn-lg rounded-4" target="_blank">Pendaftaran <svg class="bi ms-2" width="1em" height="1em"><use href="#send"></use></svg></a>
 			</div>
 		</div>
@@ -124,9 +124,7 @@
 		<div class="container py-4 mb-5 rounded-5 footer-sponsors">
 			<h3 class="text-center mb-3">Didukung oleh</h3>
 			<div class="row row-cols-xl-6 justify-content-center mb-1">
-				<div class="col"><img src="{{ asset('sponsors/gm.png') }}" class="rounded-5 shadow img-fluid"></div>
 				<div class="col"><img src="{{ asset('sponsors/la-tansa.png') }}" class="rounded-5 shadow img-fluid"></div>
-				<div class="col"><img src="{{ asset('sponsors/tenseiga.png') }}" class="rounded-5 shadow img-fluid"></div>
 				<div class="col"><img src="{{ asset('sponsors/yk-studio.png') }}" class="rounded-5 shadow img-fluid"></div>
 			</div>
 		</div>
