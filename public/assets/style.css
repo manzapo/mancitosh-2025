@@ -10,7 +10,6 @@
     background-position: center;
     background-size: cover;
     min-height: 320px;
-    margin-top: -56px;
 }
 @media(min-width: 768px) {
     .bg-image-full {
@@ -19,6 +18,7 @@
 }
 @media(min-width: 992px) {
     .bg-image-full {
+        margin-top: -56px;
         min-height: 510px;
     }
 }
