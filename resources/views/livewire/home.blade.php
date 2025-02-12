@@ -75,8 +75,10 @@
 		<div class="row justify-content-center" style="margin-bottom: 16rem;">
 			<div class="col-xl-8 text-center fs-5 fw-bold">
 				<div class="mb-3" style="color: #55300F;">Untuk SMP / MTs Se-Karesidenan Madiun dan Undangan</div>
-				<a href="{{ asset('juklak-juknis-mancitosh-v9-2025-2.pdf') }}" class="btn btn-dark btn-lg me-xl-2 rounded-4"><svg class="bi me-2" width="1em" height="1em"><use href="#file-earmark-text"></use></svg> Guide Book</a>
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSfGxq2cOy7M-HvhpdV9jq-P2uUABBogrDI_QxekCXzPSF0z-g/viewform" class="btn btn-outline-dark btn-lg rounded-4" target="_blank">Pendaftaran <svg class="bi ms-2" width="1em" height="1em"><use href="#send"></use></svg></a>
+				<div class="d-flex flex-column flex-sm-row justify-content-sm-center gap-3">
+					<a href="{{ asset('juklak-juknis-mancitosh-v9-2025-2.pdf') }}" class="btn btn-dark btn-lg rounded-4"><svg class="bi me-2" width="1em" height="1em"><use href="#file-earmark-text"></use></svg> Guide Book</a>
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSfGxq2cOy7M-HvhpdV9jq-P2uUABBogrDI_QxekCXzPSF0z-g/viewform" class="btn btn-outline-dark btn-lg rounded-4" target="_blank">Pendaftaran <svg class="bi ms-2" width="1em" height="1em"><use href="#send"></use></svg></a>
+				</div>
 			</div>
 		</div>
 		<div class="row justify-content-center" id="lomba">
@@ -121,22 +123,24 @@
 		</a>
 	</div>
 	<div class="footer">
-		<div class="container py-4 mb-5 rounded-5 footer-sponsors">
-			<h3 class="text-center mb-3">Didukung oleh</h3>
-			<div class="row row-cols-xl-6 justify-content-center mb-1">
-				<div class="col"><img src="{{ asset('sponsors/la-tansa.png') }}" class="rounded-5 shadow img-fluid"></div>
-				<div class="col"><img src="{{ asset('sponsors/yk-studio.png') }}" class="rounded-5 shadow img-fluid"></div>
+		<div class="container  mb-5">
+			<div class="p-3 rounded-5 footer-sponsors">
+				<h3 class="text-center mb-3">Didukung oleh</h3>
+				<div class="row row-cols-md-3 row-cols-lg-4 row-cols-xl-6 justify-content-center mb-1">
+					<div class="col"><img src="{{ asset('sponsors/la-tansa.png') }}" class="rounded-5 shadow img-fluid"></div>
+					<div class="col"><img src="{{ asset('sponsors/yk-studio.png') }}" class="rounded-5 shadow img-fluid"></div>
+				</div>
 			</div>
 		</div>
 		<div class="container pb-5">
 			<div class="row">
-				<div class="col-xl-5">
+				<div class="col-xl-5 mb-5 mb-xl-0">
 					<p class="lead fw-bold">&copy; 2025 OSIM MANZAPO Prod.</p>
 					<p class="mb-0">Sanggar MAN 1 Ponorogo</p>
 					<p class="mb-0">Jl. Arif Rahman Hakim No. 02</p>
 					<p class="mb-0">Desa Cekok, Kec. Babadan, Kab. Ponorogo</p>
 				</div>
-				<div class="col-xl-7 d-flex align-items-center gap-3">
+				<div class="col-xl-7 d-flex flex-column flex-md-row align-items-start gap-3">
 					<div class="fw-bold">Ikuti Kami</div>
 					<a href="https://www.instagram.com/osmanza.po" target="_blank" rel="noindex,nofollow" class="link-underline link-underline-opacity-0 link-underline-opacity-50-hover link-body-emphasis"><svg class="bi me-2" width="1em" height="1em"><use href="#instagram"></use></svg>OSIS MAN 1 Ponorogo</a>
 					<a href="https://www.instagram.com/man1ponorogo" target="_blank" rel="noindex,nofollow" class="link-underline link-underline-opacity-0 link-underline-opacity-50-hover link-body-emphasis"><svg class="bi me-2" width="1em" height="1em"><use href="#instagram"></use></svg>MAN 1 Ponorogo</a>
