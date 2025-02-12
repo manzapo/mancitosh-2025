@@ -76,7 +76,7 @@
 			<div class="col-xl-8 text-center fs-5 fw-bold">
 				<div class="mb-3" style="color: #55300F;">Untuk SMP / MTs Se-Karesidenan Madiun dan Undangan</div>
 				<div class="d-flex flex-column flex-sm-row justify-content-sm-center gap-3">
-					<a href="{{ asset('juklak-juknis-mancitosh-v9-2025-2.pdf') }}" class="btn btn-dark btn-lg rounded-4"><svg class="bi me-2" width="1em" height="1em"><use href="#file-earmark-text"></use></svg> Guide Book</a>
+					<a href="https://drive.google.com/drive/folders/1--G9izwb9p0ywwwpWDon9xc-OEGVVwI2" class="btn btn-dark btn-lg rounded-4" target="_blank"><svg class="bi me-2" width="1em" height="1em"><use href="#file-earmark-text"></use></svg> Guide Book</a>
 					<a href="https://docs.google.com/forms/d/e/1FAIpQLSfGxq2cOy7M-HvhpdV9jq-P2uUABBogrDI_QxekCXzPSF0z-g/viewform" class="btn btn-outline-dark btn-lg rounded-4" target="_blank">Pendaftaran <svg class="bi ms-2" width="1em" height="1em"><use href="#send"></use></svg></a>
 				</div>
 			</div>

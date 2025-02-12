@@ -54,8 +54,8 @@
 							<p class="lead mb-0">Ketentuan Lomba {{ $title }}</p>
 							<p class="lead">Mancitosh V.9 Competition MAN 1 Ponorogo</p>
 							<div class="d-flex flex-row justify-content-center gap-3">
-								<a href="https://docs.google.com/forms/d/e/1FAIpQLSfGxq2cOy7M-HvhpdV9jq-P2uUABBogrDI_QxekCXzPSF0z-g/viewform" class="btn btn-light rounded-3">Daftar</a>
-								<a href="{{ asset('juklak-juknis-mancitosh-v9-2025-2.pdf') }}" class="btn btn-outline-light rounded-3">Juknis</a>
+								<a href="https://docs.google.com/forms/d/e/1FAIpQLSfGxq2cOy7M-HvhpdV9jq-P2uUABBogrDI_QxekCXzPSF0z-g/viewform" class="btn btn-light rounded-3" target="_blank">Daftar</a>
+								<a href="https://drive.google.com/drive/folders/1--G9izwb9p0ywwwpWDon9xc-OEGVVwI2" class="btn btn-outline-light rounded-3" target="_blank">Juknis</a>
 							</div>
 						</div>
 					</div>
